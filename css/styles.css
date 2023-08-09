@@ -1,0 +1,225 @@
+a:link {
+    text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #673882;
+}
+a:hover {
+    color: black;
+    background-color: #27e6a0;
+}
+body{
+    font-family: arial;
+    background-color: #f0fafa;
+    margin: 0;
+}
+h1 {
+    color: #141833;
+    text-align: center;
+}
+h2 {
+    color: #0c6e4a;
+}
+h3, h4 {
+    color: #364a43;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.bottom-container a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+.bottom-container a:hover {
+    background-color: #27e6a0;
+    color: black;
+}
+
+.btn {
+  background: #27e6a0;
+  background-image: -webkit-linear-gradient(top, #27e6a0, #04AA6D);
+  background-image: -moz-linear-gradient(top, #27e6a0, #04AA6D);
+  background-image: -ms-linear-gradient(top, #27e6a0, #04AA6D);
+  background-image: -o-linear-gradient(top, #27e6a0, #04AA6D);
+  background-image: linear-gradient(to bottom, #27e6a0, #04AA6D);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.center {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.contact-me {
+    text-align: center;
+}
+.copyright {
+    color: black;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+.profile {
+    border-radius: 100%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-row-2 {
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.topnav {
+  background-color: #66BFBF;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.topnav a:hover {
+  background-color: #27e6a0;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topnav a.inactive {
+  color: black;
+}
+.undergrad-game {
+    width: 10%;
+}
+
+/* --------------- Shared Slideshow Attributes ------------------ */
+* {
+    box-sizing: border-box;
+}
+.mySlides1, .mySlides2 {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+
+/*-------------------------------Manual Slideshow-------------------------------*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  width:50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #66BFBF;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #27e6a0;
+  color: white;
+}
+
+/* -------------- Automatic Slideshow ---------------- */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
